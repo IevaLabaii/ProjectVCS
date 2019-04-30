@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="lt">
+    
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML10 Šaškės</title>
+  <style>
+          .container {
+            border: 1px solid black;
+            display: inline-grid;
+            grid-template-columns: 100px 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px 100px;
+          }
+         .d1, .d3, .d6, .d8 {
+            background-color: white;
+          }
+         .d2, .d4, .d5, .d7 {
+            background-color: black;
+          }
+  </style>
+</head>
+
+<body>
+    <div class="container">
+    
+      <div class="d1"></div>
+      <div class="d2">
+          <svg width="100" height="100"><circle cx="50" cy="50" r="40" stroke="white" stroke-width="4" fill="grey" /></svg></div>
+      <div class="d3"></div>
+      <div class="d4"></div>
+
+      <div class="d5"></div>
+      <div class="d6"></div>
+      <div class="d7">
+          <svg width="100" height="100"><circle cx="50" cy="50" r="40" stroke="white" stroke-width="4" fill="grey" /></svg></div>
+      <div class="d8"></div>
+    
+      <div class="d1"></div>
+      <div class="d2">
+          <svg width="100" height="100"><circle cx="50" cy="50" r="40" stroke="white" stroke-width="4" fill="blue" /></svg></div>
+      <div class="d3"></div>
+      <div class="d4"></div>
+
+      <div class="d5"></div>
+      <div class="d6"></div>
+      <div class="d7">
+          <svg width="100" height="100"><circle cx="50" cy="50" r="40" stroke="white" stroke-width="4" fill="blue" /></svg></div>
+      <div class="d8"></div>
+    
+    </div>
+</body>
+    
+</html>
