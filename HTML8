@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="lt">
+    
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form| HTML8</title>
+  <style>
+       textarea {
+           width:300px;
+           height: 100px;
+       }
+       div {
+          padding: 10px; 
+       }
+  </style>
+</head>
+
+<body>
+        <form action="#">
+            <fieldset>
+                <legend>Jūsų informacija</legend>
+                <table>
+                    <tr>
+                        <td><label for="vardas">Vardas:</label></td>
+                        <td><input type="text" name="vardas"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pavarde">Pavardė:</label></td>
+                        <td><input type="text" name="pavarde"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    
+        <form action="#">
+            <fieldset>
+                    <legend>Klausimai</legend>
+                
+                    <div>
+                        <label for="apieMus">Kaip sužinojote apie mus?</label> 
+                        <select>
+                            <option value="google">Google</option>
+                            <option value="facebook">Facebook</option>
+                            <option value="friends">Friends</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="apsilankymas">Ar apsilankysite vėl?</label>
+                        <br>
+                        Taip <input type="radio" name="taip" value="Taip">
+                        Ne <input type="radio" name="ne" value="Ne">
+                        Galbūt <input type="radio" name="galbut" value="Galbūt">
+                    </div>
+
+                    <div>
+                        <label for="komentaras">Ką manote apie kursą?</label> 
+                        <br>
+                        <textarea name="komentaras" placeholder="Rašykite viską, ką galvojate."></textarea>
+                    </div>
+
+                    <div>
+                        <label for="programavimoKalbos">Pažymėkite programavimo/ žymėjimo kalbas, su kuriomis esate susipažinę?</label>
+
+                    <table>
+                        <tr>
+                            <td><input type="checkbox" name="c#" value="c#"></td> 
+                            <td>C#</td>
+                            <td><input type="checkbox" name="java" value="java"></td> 
+                            <td>Java</td>
+                            <td><input type="checkbox" name="php" value="php"></td>
+                            <td>PHP</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="html" value="html"></td>
+                            <td>HTML</td>
+                            <td><input type="checkbox" name="css" value="css"></td>
+                            <td>CSS
+                            <td><input type="checkbox" name="javaScript" value="javaScript"></td>
+                            <td>JavaScript
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="python" value="python"></td>
+                            <td>Python</td>
+                            <td><input type="checkbox" name="ruby" value="ruby"></td>
+                            <td>Ruby</td>
+                        </tr>
+                    </table>
+                    </div>
+
+                    <div>
+                        <input type="submit" name="siusti" value="Siųsti">
+                    </div>
+            </fieldset>
+        </form>
+</body>
+    
+</html>
