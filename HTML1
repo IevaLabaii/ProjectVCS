@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="la">
+    
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>HTML1</title>
+    </head>
+
+    <body>
+        <div>
+            
+            <div>
+                <h1>MainHeading</h1>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet, mei ne malorum diceret vocibus, ius no falli admodum democritum, ne justo fabulas deseruisse nam. Aliquip consequat vim in, vel in alia graece tritani. Enim iracundia pri in, melius liberavisse definitiones ex qui, cu libris atomorum quaerendum per. Duis oblique est no.
+                </p> 
+            </div>
+            
+            <div>
+                <h2>SubHeading1</h2>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet, mei ne malorum diceret vocibus, ius no falli admodum democritum, ne justo fabulas deseruisse nam. Aliquip consequat vim in, vel in alia graece tritani. Enim iracundia pri in, melius liberavisse definitiones ex qui, cu libris atomorum quaerendum per. Duis oblique est no.
+                </p>
+            </div>
+            
+            <div>
+                <h2>SubHeading2</h2>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet, mei ne malorum diceret vocibus, ius no falli admodum democritum, ne justo fabulas deseruisse nam. Aliquip consequat vim in, vel in alia graece tritani. Enim iracundia pri in, melius liberavisse definitiones ex qui, cu libris atomorum quaerendum per. Duis oblique est no.
+                </p>
+            </div>
+            
+        </div>
+    </body>
+</html>
