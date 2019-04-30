@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>HTML3_Receptas</title>
+      <style>
+          body {
+              font-family: arial, sans-serif;
+          }
+          h1 {
+              text-align: center;
+          }
+          table{
+              margin-left: 20px;
+              margin-right: 20px;
+          } 
+          th {
+              text-align: center;
+              padding: 10px;
+          }
+          td {
+              text-align: left;
+              padding: 10px;
+          }
+          tr:nth-child(even) {
+              background-color: lightgoldenrodyellow;
+          }
+          .OmeleteImage, .Directions {
+              text-align: left;
+          }
+          .Serving {
+              background-color: white;
+          }
+      </style>
+    </head>
+
+    <body>
+        <h1>Best Omelet Recipe Ever!</h1>
+        <table>
+            <tr>
+                <th style="width:200px">Amount:</th>
+                <th style="width:400px">Ingredients:</th>
+                <th class="OmeleteImage" rowspan="5">
+                    <img src="https://x9wsr1khhgk5pxnq1f1r8kye-wpengine.netdna-ssl.com/wp-content/uploads/basic-french-omelet-930x550.jpg" alt="omelet"
+                        title="Omelet" width="300"/>
+                </th>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Eggs</td>
+            </tr>
+            <tr>
+                <td>2 tbsp.</td>
+                <td>Milk</td>
+            </tr>
+            <tr>
+                <td>1 tbsp.</td>
+                <td>Butter</td>
+            </tr>
+            <tr>
+                <td>1/4 tbsp.</td>
+                <td>Salt</td>
+            </tr>
+            <tr>
+                <td>Dash</td>
+                <td>Pepper</td>
+                <td class="Serving"><i>Serving example</i>.</td>
+            </tr>
+            <tr>
+                <th class="Directions" colspan="2">Directions:</th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <ol>
+                    <li><b>BEAT</b> eggs, milk, salt and pepper in small bowl until blended.</li>
+                    <li><b>HEAT</b> butter in 6 to 8-inch nonstick omelet pan or skillet over medium-high heat until hot. <b>TILT</b> pan to coat bottom. <b>POUR IN</b> egg mixture. Mixture should set immediately at edges.</li>
+                    <li><b>GENTLY PUSH</b> cooked portions from edges toward the center with inverted turner so that uncooked eggs can reach the hot pan surface. <b>CONTINUE</b> cooking, tilting pan and gently moving cooked portions as needed.</li>
+                        <li><b>SLIDE</b> omelet onto plate. <i>SERVE immediately</i>.</li>
+                    </ol>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
