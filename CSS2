@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="lt">
+    
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <title>CSS2-pH</title>
+    
+  <style>
+        body {
+            border: 10px solid grey;
+            width: 500px;
+            font-family: 'Roboto', sans-serif;
+        }
+        h1 {
+            color: darkgray;
+            border-bottom: 10px solid grey;
+            background-color: lightgray;
+            padding: 20px;
+            margin: 0;
+        }
+        p {
+            padding-left: 10px;
+            color: white;
+            margin: 0;
+        }
+        .sarminis14 {
+            background-color: #3366ff;
+        }
+        .sarminis13 {
+            background-color: #4d79ff;
+        }
+        .sarminis12 {
+            background-color: #668cff;
+        }
+        .sarminis11 {
+            background-color: #809fff;
+        }
+        .sarminis10 {
+            background-color: #99b3ff;
+        }
+        .sarminis9 {
+            background-color: #b3c6ff;
+        }
+        .sarminis8 {
+            background-color: #e6ecff;
+        }
+        .neutralus {
+            background-color: #00e699;
+        }
+        .rugstinis6 {
+            background-color: #ffe6f2;
+        }
+        .rugstinis5 {
+            background-color: #ffcce6;
+        }
+        .rugstinis4 {
+            background-color: #ffb3d9;
+        }
+        .rugstinis3 {
+            background-color: #ff99cc;
+        }
+        .rugstinis2 {
+            background-color: #ff80bf;
+        }
+        .rugstinis1 {
+            background-color: #ff66b3;
+        }
+        .rugstinis0 {
+            background-color: #ff4da6;
+        }
+  </style>
+</head>
+
+<body>
+    <h1>pH skalė</h1>
+    <p class="sarminis14">14.0 ŠARMINIS</p>
+    <p class="sarminis13">13.0</p>
+    <p class="sarminis12">12.0</p>
+    <p class="sarminis11">11.0</p>
+    <p class="sarminis10">10.0</p>
+    <p class="sarminis9">9.0</p>
+    <p class="sarminis8">8.0</p>
+    <p class="neutralus">7.0 NEUTRALUS</p>
+    <p class="rugstinis6">6.0</p>
+    <p class="rugstinis5">5.0</p>
+    <p class="rugstinis4">4.0</p>
+    <p class="rugstinis3">3.0</p>
+    <p class="rugstinis2">2.0</p>
+    <p class="rugstinis1">1.0</p>
+    <p class="rugstinis0">0.0 RŪGŠTINIS</p>
+</body>
+    
+</html>
