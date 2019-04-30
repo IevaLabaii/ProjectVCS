@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="lt">
+    
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>HTML4_Tvarkaraštis</title>
+      <style>
+            .Diena {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+             .Pamokos {
+                 margin: 0 0 0 40px;
+           }
+      </style>
+    </head>
+
+    <body>
+            <div>
+                <h1>Pamokų tvarkaraštis</h1>
+                <br>
+            </div>  
+        
+            <div>
+                <ul class="Diena">
+                <li>Pirmadienis</li>
+                </ul>
+                <ol class="Pamokos">
+                <li>Užsienio kalba</li>
+                <li>Užsienio kalba</li>
+                <li>Užsienio kalba</li>
+                <li>Užsienio kalba</li>
+                </ol>
+                
+                <ul class="Diena">
+                <li>Antradienis</li>
+                </ul>
+                <ol class="Pamokos">
+                <li>Užsienio kalba</li>
+                <li>Užsienio kalba</li>
+                <li>Užsienio kalba</li>
+                <li>Užsienio kalba</li>
+                </ol>
+          
+                <ul class="Diena">
+                <li>Trečiadienis</li>
+                </ul>
+                <ol class="Pamokos">
+                <li>Užsienio kalba</li>
+                <li>Užsienio kalba</li>
+                <li>Užsienio kalba</li>
+                <li>Užsienio kalba</li>
+                </ol>
+                
+                <ul class="Diena">
+                <li>Ketvirtadienis</li>
+                </ul>
+                <ol class="Pamokos">
+                <li>Užsienio kalba</li>
+                <li>Užsienio kalba</li>
+                <li>Užsienio kalba</li>
+                <li>Užsienio kalba</li>
+                </ol>
+            
+                <ul class="Diena">
+                <li>Penktadienis</li>
+                </ul>
+                <ol class="Pamokos">
+                <li>Užsienio kalba</li>
+                <li>Užsienio kalba</li>
+                <li>Užsienio kalba</li>
+                <li>Užsienio kalba</li>
+                </ol>
+            </div>
+    </body>
+</html>
