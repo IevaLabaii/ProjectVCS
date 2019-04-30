@@ -1,0 +1,9 @@
+  body {
+        font-family: 'Roboto', sans-serif;
+        }
+  h1, h2 {
+        color: hotpink;
+        }
+  .sodinukai {
+        opacity: 0.5;
+        }
