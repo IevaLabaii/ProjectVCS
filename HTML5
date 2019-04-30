@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>HTML5_Cakes-Images</title>
+      <style>
+          .Top-text {
+              padding-bottom: 20px;
+          }
+          .Chocolate-Cake {
+              padding-left: 50px;
+          }
+      </style>
+    </head>
+
+    <body>
+        <img class="Top-text" src="https://github.com/zigmantasvcs/resources/blob/master/images%20task/logo.gif?raw=true" alt="logo"/>
+        <figure>  
+            <img class="Chocolate-Cake" src="https://github.com/zigmantasvcs/resources/blob/master/images%20task/chocolate-islands.jpg?raw=true" alt="chocolate-cake"
+                title="Chocolate-cake"/>
+            <figcaption class="Chocolate-Cake">The recipe for individual chocolate cake is so simple and so delicious!</figcaption>
+        </figure>
+        <br>
+        <table>
+            <tr>
+                <td class="Top-text"><b>More recipes:</b></td>
+            </tr>
+            <tr>
+                <td><img src="https://github.com/zigmantasvcs/resources/blob/master/images%20task/lemon-posset.jpg?raw=true" alt="Lemon-posset" title="Lemon-posset" width="200" /></td>
+                <td><img src="https://github.com/zigmantasvcs/resources/blob/master/images%20task/roasted-brussel-sprouts.jpg?raw=true" alt="roasted brussel sprouts" title="Roasted brussel sprouts" width="200" /></td>
+                <td><img src="https://github.com/zigmantasvcs/resources/blob/master/images%20task/zucchini-cake.jpg?raw=true" alt="zucchini cake" title="Zucchini cake" width="200" /></td>
+            </tr>
+        </table>
+    </body>
+</html>
