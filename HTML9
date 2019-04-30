@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="lt">
+    
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>HTML9 Entities</title>
+    </head>
+
+    <body>
+        <H1>HTML elementai</H1>
+        <p>&ltp&gt; - nurodo paragrafą</p>
+        <p>&ltbr&gt;- perkelia į naują eilutę</p>
+        <p>&lthr&gt;- įterpia horizontalią eilutę</p>
+    </body>
+    
+</html>
