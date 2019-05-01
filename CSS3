@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS3-Stiliai</title>
+  <style>
+      h1, h2, h3 {
+          color: skyblue;
+      }
+      h1, h2 {
+          font-family: "Times New Roman", Times, serif;
+      }
+      h1 {
+          text-shadow: 3px 3px grey;
+      }
+      h3 {
+          letter-spacing: 5px;
+          font-weight: normal;
+      }
+      h3, .apie-veisle, .autorius {
+          font-family: Arial, Helvetica, sans-serif;
+      }
+      .autorius {
+          text-align: right;
+          font-style: italic;
+          padding-right: 60px;
+      }
+      .paryskintas-tekstas {
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: bold;
+      }
+      .paryskintas-tekstas:before {
+        color: skyblue;
+        content: "Briarai";
+      }
+      .apie-veisle, .autorius {
+          opacity: 0.5;
+      }
+  </style>
+</head>
+
+<body>
+    
+    <h1>Briarai</h1>
+    <h3>ŠIRDIS KAILYJE</h3>
+    <p class="paryskintas-tekstas">, arba 'berger de brie' yra šunų veislė.</p>
+    <h2>Istorija</h2>
+    <p class="apie-veisle">
+        Briaras yra dideli (tačiau ne sunkiasvoriai), gražūs šunys, turintys patrauklų, išskirtinai ilgą kailį. Jie yra raumeningi, masyvūs ir tinkamai proporcingi. Galva yra iškelta aukštai ant raumeningo kaklo. Dėl šerių, kuriuos jiie turi aplink akis, žvilgsnis tampa labai malonus. Jie juda lengvai ir gali išvystyti didelį greitį. Šie šunys yra labai vikrūs ir gali greitai apsisukti.
+    </p>
+    <p class="autorius">pagal Ivy Duckett</p>
+    
+</body>
+</html>
