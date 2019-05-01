@@ -1,0 +1,33 @@
+#content-wrapper {
+    text-align: center;
+    border: 6px double black;
+}
+header {
+    padding-top: 20px;
+}
+ul {
+    display: inline-flex;
+    border-top: 4px solid black;
+    border-bottom: 2px solid black;
+    margin: 20px;
+    width: 600px;
+    padding: 20px;
+    list-style-type: none;
+}
+#navbar a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 20px;   
+    margin-bottom: 20px;
+}
+#navbar a:hover {
+  color: red;  
+}
+#navbar, p {
+    font-family: 'Cormorant Garamond', serif;
+}
+p {
+    padding-left: 350px;
+    padding-right: 350px;
+}
