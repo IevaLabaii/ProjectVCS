@@ -76,9 +76,9 @@
                             <td><input type="checkbox" name="html" value="html"></td>
                             <td>HTML</td>
                             <td><input type="checkbox" name="css" value="css"></td>
-                            <td>CSS
+                            <td>CSS</td>
                             <td><input type="checkbox" name="javaScript" value="javaScript"></td>
-                            <td>JavaScript
+                            <td>JavaScript</td>
                         </tr>
                         <tr>
                             <td><input type="checkbox" name="python" value="python"></td>
