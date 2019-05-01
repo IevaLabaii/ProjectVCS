@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>HTML6_Calculator</title>
+      <style>
+          table {
+              border: solid brown;
+              text-align: center;
+              background-color:coral;
+              border-radius: 10px
+          }
+          button {
+              background-color: lightblue;
+              border-radius: 5px;
+              width: 100%;
+              font-weight: bold;
+          }
+          button:hover {
+            background-color: burlywood;  
+          }
+      </style>
+    </head>
+
+    <body>
+        <table>
+            <tr>
+                <td colspan="4"><input type="text" name="text"></td>
+            </tr>
+            <tr>
+                <td><button type="count">AC</button></td>
+                <td><button type="count">+/-</button></td>
+                <td><button type="count-percent">%</button></td>
+                <td><button type="devide">&#247;</button></td>
+            </tr>
+            <tr>
+                <td><button type="number">7</button></td>
+                <td><button type="number">8</button></td>
+                <td><button type="number">9</button></td>
+                <td><button type="multiplicate">x</button></td>
+            </tr>
+            <tr>
+                <td><button type="number">4</button></td>
+                <td><button type="number">5</button></td>
+                <td><button type="number">6</button></td>
+                <td><button type="minus">-</button></td>
+            </tr>
+            <tr>
+                <td><button type="number">1</button></td>
+                <td><button type="number">2</button></td>
+                <td><button type="number">3</button></td>
+                <td><button type="sum">+</button></td>
+            </tr>
+            <tr>
+                <td><button type="number">0</button></td>
+                <td><button type="count">,</button></td>
+                <td colspan="2"><button type="countFinalValue">=</button></td>
+            </tr>
+        </table>
+    </body>
+</html>
