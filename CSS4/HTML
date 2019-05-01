@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="lt">
+    
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS4 | Pianinas</title>
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+  <link href="css/style.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+    <div id="content-wrapper">
+        
+        <header>
+            <img src="Foto/logo.gif" alt="logo" title="logo">
+        </header>
+
+        <ul id="navbar">
+            <li><a href="#">Pagrindinis</a></li>
+            <li><a href="#">Pardavimas</a></li>
+            <li><a href="#">Remontas</a></li>
+            <li><a href="#">Apie</a></li>
+            <li><a href="#">Kontaktai</a></li>
+        </ul>
+
+        <main>
+            <img src="Foto/keys.jpg" alt="pianinas" title="pianinas">
+            <p>
+                Pianinas – klavišinis instrumentas, fortepijono atmaina. Pianino garsas išgaunamas klavišais, kurie sujungti su plaktukėlias, užgaunančiais stygą.Priklausomai nuo registro vienam garsui priskiriamos 1-3 stygos. Tradicinis pianinas turi 88 klavišus, jo diapazonas siekia 7 oktavas.
+            </p>
+        </main>
+        
+    </div>
+</body>
+</html>
