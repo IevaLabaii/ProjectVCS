@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>JS1| Klaidos kode</title>
+    </head>
+
+    <body>
+       <script type="text/javascript">
+           //dvieju skaiciu sudetis
+           
+           var PirmasSkaicius, AntrasSkaicius;
+           
+           PirmasSkaicius = 10;
+           AntrasSkaicius = 20;
+           
+           SkaiciuSuma = PirmasSkaicius + AntrasSkaicius;
+           
+           document.write(PirmasSkaicius + AntrasSkaicius);
+           
+           console.log(SkaiciuSuma);
+        </script> 
+    </body>
+    
+</html>
