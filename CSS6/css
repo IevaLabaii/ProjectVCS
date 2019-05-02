@@ -1,5 +1,6 @@
 body {
     background-image: url("https://www.theme-junkie.com/wp-content/uploads/Minimal-Tumblr-Background-1.jpg");
+    opacity: 0.8;
     background-size: 100%;
       }
 form {
@@ -8,6 +9,7 @@ form {
     text-align: center;
     color: purple;
     padding-bottom: 20px;
+    justify-content: center;
       }
 textarea {
      width:300px;
@@ -19,12 +21,12 @@ div {
 fieldset.pirma-dalis {
      border: 1px solid purple;
      border-radius: 6px;
-     margin: 20px 550px;
+    background-color: white;
       }
 fieldset.antra-dalis {
      border: 1px solid purple;
      border-radius: 6px;
-     margin-left: 300px;
+    background-color: white;
       }
 legend.informacija {
      font-size: 20px;
@@ -40,7 +42,6 @@ label {
      letter-spacing: 3px;
       }
 .programavimo-kalbos {
-     padding-left: 200px;
      padding-top: 10px;
       }
 td {
@@ -51,7 +52,8 @@ td:hover {
      color: purple;
       }
 .radio-item {
-     color: cadetblue;
+    color: cadetblue;
+    justify-content: center;
       }
 button {
      background-color: purple; 
