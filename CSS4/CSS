@@ -1,6 +1,7 @@
 #content-wrapper {
     text-align: center;
     border: 6px double black;
+    
 }
 header {
     padding-top: 20px;
@@ -9,8 +10,9 @@ ul {
     display: inline-flex;
     border-top: 4px solid black;
     border-bottom: 2px solid black;
-    margin: 20px;
-    width: 600px;
+    justify-content: center;
+    
+    width: 560px;
     padding: 20px;
     list-style-type: none;
 }
@@ -28,6 +30,6 @@ ul {
     font-family: 'Cormorant Garamond', serif;
 }
 p {
-    padding-left: 350px;
-    padding-right: 350px;
+    width: 570px;
+    margin-left: 360px;
 }
