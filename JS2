@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="la">
+    
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>JS2 Red, Blue Text</title>
+    </head>
+
+    <body>
+        
+        <p>Homework:</p>
+        
+        <button onclick="myFunction()">Homework is here</button>
+        
+        <script type="text/javascript">
+           
+           function myFunction() {
+           
+           var colorTitle = "red";
+           var colorParagraph = "blue";
+           var title = '<span style="color: ' + colorTitle + ';">Skyrius1</span>';
+           var article = '<span style="color: ' + colorParagraph + ';">Magna ita offendit, anim quibusdam philosophari, an quid praetermissum nam nisi despicationes nescius elit commodo. Ita et distinguantur de id pariatur id laborum, ubi enim probant proident ad duis aut pariatur, sunt iudicem	concursionibus nam fore ab voluptate do nulla consectetur voluptate elit	aliquip, legam ad admodum et quid. Quae probant an commodo, litteris de summis ullamco. Est legam nostrud arbitrantur ex si a culpa fore quorum est an amet quis est aliquip, enim incididunt quo praetermissum. Eu pariatur ab fabulas. Minim nescius cohaerescant, qui quorum eram de singulis.</span>';
+           var lenghtText = title.length;
+           var lenghtText2 = article.length;
+           
+           document.write("<h1>" + title + "</h1><p>" + article + "</p>");
+           document.write('Tekste yra ');
+           document.write(lenghtText + lenghtText2 + " " );
+           document.write('simbolių'); 
+           }
+            
+        </script> 
+    </body>
+    
+</html>
