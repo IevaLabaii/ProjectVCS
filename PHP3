@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>PHP3</title>
+    </head>
+    
+    <body>
+    
+        <?php
+            $x = 10;
+            $y = 7;
+        ?>
+        
+        <ul>
+            <?php $z = $x + $y; ?>
+            <li><?php echo "$x + $y = $z"; ?></li>
+           
+            <?php $z = $x - $y; ?>
+            <li><?php echo "$x - $y = $z"; ?></li>
+            
+            <?php $z = $x * $y; ?>
+            <li><?php echo "$x * $y = $z"; ?></li>
+            
+            <?php $z = $x / $y; ?>
+            <li><?php echo "$x / $y = $z"; ?></li>
+            
+            <?php $z = $x % $y; ?>
+            <li><?php echo "$x % $y = $z"; ?></li>
+        </ul>
+        
+    </body>
+</html>
