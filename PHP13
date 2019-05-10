@@ -1,0 +1,24 @@
+<?php
+    class Gyventojas {
+        public $vardas;
+        public $pavarde;
+        public $pasisveikinimas;
+
+        public function labas (){
+            return 'Vardas' . ' ' . $this -> vardas . ' '. 'Pavarde'. ' ' . $this -> pavarde. ' ' . 'Pasisveikinimas'. ' ' . $this -> pasisveikinimas . '<br>';
+        }
+}
+$Jonas = new Gyventojas();
+$Petras = new Gyventojas();
+
+$Jonas -> vardas = "Jonas";
+$Jonas -> pavarde = "Jonaitis";
+$Jonas -> pasisveikinimas = "Labas";
+
+$Petras -> vardas = "Petras";
+$Petras -> pavarde = "Petraitis";
+$Petras -> pasisveikinimas = "Sveikas";
+
+    echo $Jonas -> labas();
+    echo $Petras -> labas();
+?>
