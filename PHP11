@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>NamuDarbas1 | Staciakampio Plotas</title>
+    </head>
+
+    <body>
+        <?php /*
+        
+        function plotas($a, $b) {
+            $sandauga = $a * $b;
+            echo "Staciakampio plotas : $sandauga";
+        }
+        
+            plotas(3, 5); */
+       
+        function plotas($a, $b) {
+            $sandauga = $a * $b;
+            return $sandauga;
+        }
+        
+            $atsakymas = plotas(3, 5);
+            echo "Staciakampio plotas : $atsakymas";
+        ?> 
+    </body>
+</html>
