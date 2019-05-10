@@ -1,0 +1,10 @@
+<?php
+    $metai = 2013;
+    $dabartiniaiMetai = date('Y');
+
+if ($metai < $dabartiniaiMetai) {
+    echo "&copy $metai-$dabartiniaiMetai";
+} else {
+    echo "&copy; $dabar";
+}
+?>
